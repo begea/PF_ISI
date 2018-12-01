@@ -12,20 +12,20 @@ public class BisiestoTest {
 		@Test 
 		public void testNoDivisible ()
 		{
-			assertFalse("ERROR: año no divisible entre 4",Bisiesto.main(a));
+			assertFalse("ERROR: año no divisible entre 4",Bisiesto.esBisiesto(a));
 			
 		}
 		
 		@Test
 		public void testDivisible4 ()
 		{
-			assertTrue("ERROR: año divisible entre 4",Bisiesto.main(b));
+			assertTrue("ERROR: año divisible entre 4",Bisiesto.esBisiesto(b));
 		}
 		
 		@Test
 		public void testDivisible100 ()
 		{
-			assertTrue("ERROR: año divisible entre 4, entre 100 y entre 400",Bisiesto.main(c));
+			assertTrue("ERROR: año divisible entre 4, entre 100 y entre 400",Bisiesto.esBisiesto(c));
 		}
 
 }
