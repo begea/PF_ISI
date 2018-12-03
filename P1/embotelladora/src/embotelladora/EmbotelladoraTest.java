@@ -25,7 +25,7 @@ public class EmbotelladoraTest {
 	@Test public void negativeLittle()
 	{
 		Embotelladora test= new Embotelladora();
-		assertTrue("Error negativeLittle", -1==test.calculaBotellasPequenas(2,3,-17));
+		assertTrue("Error negativeLittle", -1==test.calculaBotellasPequenas(-2,3,17));
 	}
 	
 	@Test public void negativeLiters()
