@@ -39,16 +39,4 @@ public class Embotelladora {
 		return needed;
 	}
 	
-	public static void main(String[] args) {
-		System.out.println(calculaBotellasPequenas(1,5,20));
-		System.out.println(calculaBotellasPequenas(2,3,17));
-		System.out.println(calculaBotellasPequenas(1,1,6));
-		System.out.println(calculaBotellasPequenas(1,1,7));
-		System.out.println(calculaBotellasPequenas(1,2,18));
-		System.out.println(calculaBotellasPequenas(12,1,5));
-		System.out.println(calculaBotellasPequenas(12,1,10));
-		System.out.println(calculaBotellasPequenas(-12,1,10));
-		System.out.println(calculaBotellasPequenas(12,-1,10));
-		System.out.println(calculaBotellasPequenas(12,1,-10));
-	}
 }
