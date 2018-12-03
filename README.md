@@ -5,5 +5,8 @@ El fin de éste es aprender el correcto funcionamiento de GitHub en un entorno c
 
 TO DO
 ------
--Merge de bisiestos y embotelladoras desde mi rama cuando se confirme.
--Subida desde el eclipse local de Andrés de BlackFriday, y puesta apunto posteriormente.
+-Puesta apunto BlackFriday.
+-Modificar en numero romanos: Convierte debe devolver un int y actualmente esta devolviendo un string.
+-Subida Andres Test blackFriday.
+-Subida Raquel numero romanos.
+-Subida Juan embotelladoras.
