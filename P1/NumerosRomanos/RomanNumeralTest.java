@@ -12,8 +12,8 @@ public class RomanNumeralTest {
 	public void convertirItest() {
 		String romano = "III";
 		RomanNumeral convierte = new RomanNumeral();
-		String result = convierte.convierte(romano);
-		assertEquals("3", result);		
+		int result = convierte.convierte(romano);
+		assertEquals(3, result);		
 	}
 	
 
@@ -23,8 +23,8 @@ public class RomanNumeralTest {
 	public void convertirVtest() {
 		String romano = "IV";
 		RomanNumeral convierte = new RomanNumeral();
-		String result = convierte.convierte(romano);
-		assertEquals("4", result);		
+		int result = convierte.convierte(romano);
+		assertEquals(4, result);		
 	}
 	
 	// Prueba para el numero romano XXX
@@ -33,8 +33,8 @@ public class RomanNumeralTest {
 	public void convertirXtest() {
 		String romano = "XXX";
 		RomanNumeral convierte = new RomanNumeral();
-		String result = convierte.convierte(romano);
-		assertEquals("30", result);		
+		int result = convierte.convierte(romano);
+		assertEquals(30, result);		
 	}
 	
 	 // Prueba para el numero romano LX
@@ -43,8 +43,8 @@ public class RomanNumeralTest {
 	public void convertirXXtest() {
 		String romano = "LX";
 		RomanNumeral convierte = new RomanNumeral();
-		String result = convierte.convierte(romano);
-		assertEquals("60", result);		
+		int result = convierte.convierte(romano);
+		assertEquals(60, result);		
 	}
 	
 	// Prueba para el numero romano DD
@@ -53,8 +53,8 @@ public class RomanNumeralTest {
 	public void convertirDDtest() {
 		String romano = "DD";
 		RomanNumeral convierte = new RomanNumeral();
-		String result = convierte.convierte(romano);
-		assertEquals("Error, el numero introducido es invalido", result);		
+		int result = convierte.convierte(romano);
+		assertEquals(-1, result);		
 	}
 	
 
@@ -64,8 +64,8 @@ public class RomanNumeralTest {
 	public void convertirXXCtest() {
 		String romano = "XXC";
 		RomanNumeral convierte = new RomanNumeral();
-		String result = convierte.convierte(romano);
-		assertEquals("Error, el numero introducido es invalido", result);		
+		int result = convierte.convierte(romano);
+		assertEquals(-1, result);		
 	}
 	
 	// Prueba para el numero romano XXIII
@@ -74,8 +74,8 @@ public class RomanNumeralTest {
 	public void convertirXXIIItest() {
 		String romano = "XXIII";
 		RomanNumeral convierte = new RomanNumeral();
-		String result = convierte.convierte(romano);
-		assertEquals("23", result);		
+		int result = convierte.convierte(romano);
+		assertEquals(23, result);		
 	}
 
 	// Prueba para el numero romano XXLVII
@@ -84,8 +84,8 @@ public class RomanNumeralTest {
 	public void convertirXXLVIICtest() {
 		String romano = "XXLVII";
 		RomanNumeral convierte = new RomanNumeral();
-		String result = convierte.convierte(romano);
-		assertEquals("Error, el numero introducido es invalido", result);		
+		int result = convierte.convierte(romano);
+		assertEquals(-1, result);		
 	}
 	
 	// Prueba para el numero romano VL
@@ -94,8 +94,8 @@ public class RomanNumeralTest {
 	public void convertirVLCtest() {
 		String romano = "VL";
 		RomanNumeral convierte = new RomanNumeral();
-		String result = convierte.convierte(romano);
-		assertEquals("Error, el numero introducido es invalido", result);		
+		int result = convierte.convierte(romano);
+		assertEquals(-1, result);		
 	}
 	
 	// Prueba para el numero romano CMM
@@ -104,8 +104,8 @@ public class RomanNumeralTest {
 	public void convertirCMMtest() {
 		String romano = "CMM";
 		RomanNumeral convierte = new RomanNumeral();
-		String result = convierte.convierte(romano);
-		assertEquals("Error, el numero introducido es invalido", result);		
+		int result = convierte.convierte(romano);
+		assertEquals(-1, result);		
 	}
 	
 	// Prueba para el numero romano IXVI
@@ -114,8 +114,8 @@ public class RomanNumeralTest {
 	public void convertirIXVItest() {
 		String romano = "IXVI";
 		RomanNumeral convierte = new RomanNumeral();
-		String result = convierte.convierte(romano);
-		assertEquals("Error, el numero introducido es invalido", result);		
+		int result = convierte.convierte(romano);
+		assertEquals(-1, result);		
 	}
 	
  	// Prueba para el numero romano IC
@@ -124,8 +124,8 @@ public class RomanNumeralTest {
 	public void convertirICtest() {
 		String romano = "IC";
 		RomanNumeral convierte = new RomanNumeral();
-		String result = convierte.convierte(romano);
-		assertEquals("Error, el numero introducido es invalido", result);		
+		int result = convierte.convierte(romano);
+		assertEquals(-1, result);		
 	}
 	
 	// Prueba para el numero romano IXL
@@ -134,8 +134,8 @@ public class RomanNumeralTest {
 	public void convertirIXLtest() {
 		String romano = "IXL";
 		RomanNumeral convierte = new RomanNumeral();
-		String result = convierte.convierte(romano);
-		assertEquals("Error, el numero introducido es invalido", result);		
+		int result = convierte.convierte(romano);
+		assertEquals(-1, result);		
 	}
 	
 	// Prueba para el numero romano XIL
@@ -144,8 +144,8 @@ public class RomanNumeralTest {
 	public void convertirXILtest() {
 		String romano = "XIL";
 		RomanNumeral convierte = new RomanNumeral();
-		String result = convierte.convierte(romano);
-		assertEquals("Error, el numero introducido es invalido", result);		
+		int result = convierte.convierte(romano);
+		assertEquals(-1, result);		
 	}
 	
 	// Prueba para el numero romano VIV
@@ -154,8 +154,8 @@ public class RomanNumeralTest {
 	public void convertirVIVtest() {
 		String romano = "VIV";
 		RomanNumeral convierte = new RomanNumeral();
-		String result = convierte.convierte(romano);
-		assertEquals("Error, el numero introducido es invalido", result);		
+		int result = convierte.convierte(romano);
+		assertEquals(-1, result);		
 	}
 	
 	// Prueba para el numero romano CDXL
@@ -164,8 +164,8 @@ public class RomanNumeralTest {
 	public void convertirCDXLtest() {
 		String romano = "CDXL";
 		RomanNumeral convierte = new RomanNumeral();
-		String result = convierte.convierte(romano);
-		assertEquals("440", result);		
+		int result = convierte.convierte(romano);
+		assertEquals(440, result);		
 	}
 
 }

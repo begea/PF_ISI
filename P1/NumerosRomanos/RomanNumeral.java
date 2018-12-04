@@ -3,9 +3,9 @@ public class RomanNumeral{
 	private boolean actualIsRep = false;
 	private int restaPosible_1 = 0;
 	private int restaPosible_2 = 0;
-	private String strResultado;
+	private int Resultado;
 
-	public String convierte(String romano){
+	public int convierte(String romano){
 		
 		int intDigit = 0;
 		int prev = 0;
@@ -38,8 +38,8 @@ public class RomanNumeral{
 				// Validaciones
 				
 				if (actualIsRep == false || restado == true){
-					strResultado = "Error, el numero introducido es invalido";
-					return strResultado;
+					Resultado = -1;
+					return Resultado;
 				}
 				prev = intDigit;
 				temp = temp + intDigit;
@@ -55,8 +55,8 @@ public class RomanNumeral{
 				
 				if (prevIsRep == false || contEquals > 1 || intDigit >= max ||
 						(restaPosible_1 != intDigit && restaPosible_2 != intDigit) ){
-					strResultado= "Error, el numero introducido es invalido";					
-					return strResultado;
+					Resultado = -1;
+					return Resultado;
 				}
 				
 				min=prev;
@@ -73,8 +73,8 @@ public class RomanNumeral{
 				// Validaciones
 				
 				if (intDigit > min){
-					strResultado = "Error, el numero introducido es invalido";
-					return strResultado;
+					Resultado = -1;
+					return Resultado;
 				}
 				
 				max = prev;
@@ -88,7 +88,7 @@ public class RomanNumeral{
 		}
 		
 		resultado = resultado + temp;
-		return String.valueOf(resultado);
+		return resultado;
 	}
 	
 	public int changeLetterByNumber(Character digito){
@@ -128,7 +128,7 @@ public class RomanNumeral{
 			actualIsRep = true;
 			break;
 		default:
-			 strResultado= "Error, el numero introducido es invalido";				
+			 Resultado= -1;				
 		}
 		
 		return intDigit;
