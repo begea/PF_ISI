@@ -10,3 +10,4 @@ TO DO
 -Subida Andres Test blackFriday.
 -Subida Raquel numero romanos.
 -Subida Juan embotelladoras.
+-Añadir Wiki con las pacticas en pdf
