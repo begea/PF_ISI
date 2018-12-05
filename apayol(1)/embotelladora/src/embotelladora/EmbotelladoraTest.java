@@ -14,7 +14,6 @@ public class EmbotelladoraTest {
 		assertTrue("Error allOk", 2==test.calculaBotellasPequenas(2,3,17));
 		assertTrue("Error allOk", 0==test.calculaBotellasPequenas(1,5,20));
 		assertTrue("Error allOk", 7==test.calculaBotellasPequenas(9,2,17));
-		assertTrue("Error allOk", 0==test.calculaBotellasPequenas(1,5,0));
 	}
 	
 	@Test public void negativeBig()
@@ -53,6 +52,7 @@ public class EmbotelladoraTest {
 			Embotelladora test= new Embotelladora();
 			assertTrue("Error notEnoughLittle", -1==test.calculaBotellasPequenas(2,0,10));
 		} catch (Exception e) {
+			fail("Valor menor de cero");
 			return;
 		}
 	}
