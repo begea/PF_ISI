@@ -2,6 +2,9 @@ Repositorio creado para la asignatura de Ingeniería de Sistemas de la Informaci
 
 El fin de éste es aprender el correcto funcionamiento de GitHub en un entorno colaborativo.
 
+Importante
+----------
+Andres tiene que subir un fichero con el usuario de cada grupo y que contenga la url usada en su grupo para las subidas (que les pregunte mejor) para mejorar la rapidez de los trabajos. Para hoy 
 
 TO DO
 ------
