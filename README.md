@@ -5,8 +5,7 @@ El fin de éste es aprender el correcto funcionamiento de GitHub en un entorno c
 
 TO DO
 ------
--Puesta apunto BlackFriday.
--Modificar en numero romanos: Convierte debe devolver un int y actualmente esta devolviendo un string.
+-Pasar las pruebas sobre otros a las determinadas Ramas (Andrés y Raquel)
 -Subida Andres Test blackFriday.
 -Subida Raquel numero romanos.
--Subida Juan embotelladoras.
+-Falta un test por comprobar en embotelladora Juan
